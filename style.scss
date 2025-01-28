@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Noto Sans SC';
+    src: url('path-to-font/NotoSansSC-Regular.woff2') format('woff2'),
+         url('path-to-font/NotoSansSC-Regular.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.container {
+    display: flex;
+    background-color:rgb(24, 24, 24);
+    color:#ccc8c3;
+    height: 75px;
+    
+    
+}
+
+
+.section {
+    height:auto;
+    font-family: 'Noto Sans SC', sans-serif;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 300;
+    
+}
+
+.info {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+  
+    
+}
+
+.company {
+    padding:15px;
+}
+.designer {
+    padding-left: 4rem;
+}
+
+
+.nav {
+  
+    display:flex;
+    justify-content: flex-end;
+
+}
+.nav ul{
+    width:100%;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+   
+}
+
+.nav ul li {
+    display: inline-block;
+    padding:30px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+
+
